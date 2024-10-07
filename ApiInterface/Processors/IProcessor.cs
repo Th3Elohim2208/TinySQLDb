@@ -11,5 +11,6 @@ namespace ApiInterface.Processors
     internal interface IProcessor
     {
         Response Process();
+        Response Process(Request request);
     }
 }
